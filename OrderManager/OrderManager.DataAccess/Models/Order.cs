@@ -16,5 +16,6 @@ namespace OrderManager.DataAccess.Models
         public bool InProgress { get; set; }
         public bool Ended { get; set; }
         public string AdminComment { get; set; }
+        public DateTime OrderDate { get; set; }
     }
 }

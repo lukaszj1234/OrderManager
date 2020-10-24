@@ -13,12 +13,18 @@
                 @ViewBag.Tittle
             </h3>
         </div>
-        <div class="sidenav col-2">
-            <a asp-controller="Admin" asp-action="">Nowe</a>
-            <a asp-controller="Admin" asp-action="">W trakcie realizacji</a>
-            <a asp-controller="Admin" asp-action="">Zrealizowane</a>
+        <div class="row">
+            <div class="col">
+                <div class="sidenav col-2">
+                    <a asp-controller="Admin" asp-action="">Nowe</a>
+                    <a asp-controller="Admin" asp-action="">W trakcie realizacji</a>
+                    <a asp-controller="Admin" asp-action="">Zrealizowane</a>
+                </div>
+            </div>
+        <div class="col-9">
+         @await Component.InvokeAsync("BuildingFilter")
+         @RenderBody()
         </div>
-        @RenderBody()
-    </div>
+        </div>
 </body>
 </html>
