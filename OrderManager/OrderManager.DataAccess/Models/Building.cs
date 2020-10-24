@@ -5,7 +5,7 @@ using System.Text;
 
 namespace OrderManager.DataAccess.Models
 {
-    class Building
+    public class Building
     {
         public int Id { get; set; }
         [Required]

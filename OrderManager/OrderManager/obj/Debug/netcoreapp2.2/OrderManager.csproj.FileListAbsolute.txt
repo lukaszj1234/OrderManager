@@ -29,3 +29,6 @@ C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\bin\Debug\
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Index.cshtml.g.cs
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\bin\Debug\netcoreapp2.2\OrderManager.DataAccess.dll
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\bin\Debug\netcoreapp2.2\OrderManager.DataAccess.pdb
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\BuildingFilter\Default.cshtml.g.cs
