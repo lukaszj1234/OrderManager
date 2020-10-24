@@ -1,0 +1,24 @@
+﻿<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet"
+          asp-href-include="~/lib/bootstrap/css/bootstrap.css"
+          asp-href-exclude="~/lib/bootstrap/css/bootstrap-grid.css" />
+    <link href="~/lib/css/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid" style="margin:10px">
+        <div class="row" style="height:50px; background-color:darkorange">
+            <h3 style="margin:10px">
+                @ViewBag.Tittle
+            </h3>
+        </div>
+        <div class="sidenav col-2">
+            <a asp-controller="Admin" asp-action="">Nowe</a>
+            <a asp-controller="Admin" asp-action="">W trakcie realizacji</a>
+            <a asp-controller="Admin" asp-action="">Zrealizowane</a>
+        </div>
+        @RenderBody()
+    </div>
+</body>
+</html>

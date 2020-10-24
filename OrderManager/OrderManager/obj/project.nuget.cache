@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "dfv1dq+BmTLOXO7X5PiXOUa4DyKc9guMopNS0RsFZxAbSkI1jzUVu53UlSU54IUyVGgd5+uYcY3L+eOsUtsQRQ==",
-  "success": true,
+  "dgSpecHash": "CbgDHf6p36mf2kDUepMevq58lbBu3bUdxKmsITuvE7iYjf5sk0VJ1JZIBs9gkVHSQ7X2OMqc995yaiDhO6cU5w==",
+  "success": false,
   "projectFilePath": "C:\\Users\\Moje\\Documents\\GitHub\\OrderManager\\OrderManager\\OrderManager\\OrderManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Moje\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
@@ -288,5 +288,15 @@
     "C:\\Users\\Moje\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\Moje\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Projekt OrderManager.DataAccess nie jest zgodny z elementem netcoreapp2.2 (.NETCoreApp,Version=v2.2). Projekt OrderManager.DataAccess obsługuje: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "OrderManager.DataAccess",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    }
+  ]
 }

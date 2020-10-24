@@ -25,3 +25,7 @@ C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\OrderManager.RazorTargetAssemblyInfo.cs
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\OrderManager.Views.pdb
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\OrderManager.csproj.CopyComplete
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\bin\Debug\netcoreapp2.2\libman.json
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
