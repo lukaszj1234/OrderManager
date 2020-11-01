@@ -1,0 +1,20 @@
+﻿
+@{
+    Layout = "_AdminLayout";
+    ViewBag.Tittle = "Nowe zamówienia";
+}
+
+@if (ViewBag.Orders != null)
+{
+    foreach (var item in ViewBag.Orders)
+    {
+        <div class="card m-1 p-1">
+            <div class="p-1" style="height:60px;width:100%; background-color:grey">
+                <h4>
+                    Zamówienie: @item.OrderName
+                    Budowa: @item.BuildingName
+                </h4>
+            </div>
+        </div>
+    }
+ }

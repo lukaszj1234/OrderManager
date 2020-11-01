@@ -11,7 +11,7 @@ namespace OrderManager.DataAccess.Models
         public string Unit { get; set; }
         public int Quantity { get; set; }
         public int UserId { get; set; }
-        public int BuildingId { get; set; }
+        public Building Building { get; set; }
         public string ExpectedDeliveryTime { get; set; }
         public bool InProgress { get; set; }
         public bool Ended { get; set; }

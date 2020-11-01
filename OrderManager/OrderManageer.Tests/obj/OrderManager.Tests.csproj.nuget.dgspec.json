@@ -18,15 +18,22 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {}
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Moje\\Documents\\GitHub\\OrderManager\\OrderManager\\OrderManager.DataAccess\\OrderManager.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Moje\\Documents\\GitHub\\OrderManager\\OrderManager\\OrderManager.DataAccess\\OrderManager.DataAccess.csproj"
+              },
+              "C:\\Users\\Moje\\Documents\\GitHub\\OrderManager\\OrderManager\\OrderManager\\OrderManager.csproj": {
+                "projectPath": "C:\\Users\\Moje\\Documents\\GitHub\\OrderManager\\OrderManager\\OrderManager\\OrderManager.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -36,23 +43,39 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.2": {
           "dependencies": {
-            "MSTest.TestAdapter": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",
-              "version": "[2.1.0, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[2.1.0, )"
+              "version": "[2.2.0, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
             },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.7, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.0, )"
             }
           },
           "imports": [
@@ -65,11 +88,153 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Moje\\Documents\\GitHub\\OrderManager\\OrderManager\\OrderManager.DataAccess\\OrderManager.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Moje\\Documents\\GitHub\\OrderManager\\OrderManager\\OrderManager.DataAccess\\OrderManager.DataAccess.csproj",
+        "projectName": "OrderManager.DataAccess",
+        "projectPath": "C:\\Users\\Moje\\Documents\\GitHub\\OrderManager\\OrderManager\\OrderManager.DataAccess\\OrderManager.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Moje\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moje\\Documents\\GitHub\\OrderManager\\OrderManager\\OrderManager.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Moje\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
             "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Moje\\Documents\\GitHub\\OrderManager\\OrderManager\\OrderManager\\OrderManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Moje\\Documents\\GitHub\\OrderManager\\OrderManager\\OrderManager\\OrderManager.csproj",
+        "projectName": "OrderManager",
+        "projectPath": "C:\\Users\\Moje\\Documents\\GitHub\\OrderManager\\OrderManager\\OrderManager\\OrderManager.csproj",
+        "packagesPath": "C:\\Users\\Moje\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moje\\Documents\\GitHub\\OrderManager\\OrderManager\\OrderManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Moje\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Moje\\Documents\\GitHub\\OrderManager\\OrderManager\\OrderManager.DataAccess\\OrderManager.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Moje\\Documents\\GitHub\\OrderManager\\OrderManager\\OrderManager.DataAccess\\OrderManager.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }

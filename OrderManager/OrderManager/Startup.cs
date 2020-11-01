@@ -9,6 +9,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using OrderManager.DataAccess;
 using Microsoft.Extensions.Configuration;
+using OrderManager.DataAccess.Repositories;
+using OrderManager.DataAccess.Repositories.Interfaces;
+using AutoMapper;
+using OrderManager.Configuration;
 
 namespace OrderManager
 {
@@ -20,9 +24,18 @@ namespace OrderManager
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddTransient<IBuildingRepository, BuildingRepository>();
+            services.AddTransient<IOrderRepository, OrderRepository>();
             services.AddDbContext<OrderManagerDbContext>(options =>
                options.UseSqlServer(
                    Configuration["Data:OrderManagerDb:ConnectionString"]));
+            var mappingConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingProfile());
+            });
+
+            IMapper mapper = mappingConfig.CreateMapper();
+            services.AddSingleton(mapper);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -34,7 +47,16 @@ namespace OrderManager
             }
             app.UseStatusCodePages();
             app.UseStaticFiles();
-            app.UseMvcWithDefaultRoute();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                     name: null,
+                     template: "{controller}/{action}",
+                     defaults: new { Controller = "AdminOrders", action = "NewOrders" });
+             routes.MapRoute(
+                    name: null,
+                    template: "{controller}/{action}/{id}");
+        });
         }
     }
 }

@@ -1,0 +1,11 @@
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\bin\Release\netcoreapp2.2\OrderManager.DataAccess.deps.json
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\bin\Release\netcoreapp2.2\OrderManager.DataAccess.runtimeconfig.json
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\bin\Release\netcoreapp2.2\OrderManager.DataAccess.runtimeconfig.dev.json
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\bin\Release\netcoreapp2.2\OrderManager.DataAccess.dll
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\bin\Release\netcoreapp2.2\OrderManager.DataAccess.pdb
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\obj\Release\netcoreapp2.2\OrderManager.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\obj\Release\netcoreapp2.2\OrderManager.DataAccess.AssemblyInfo.cs
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\obj\Release\netcoreapp2.2\OrderManager.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\obj\Release\netcoreapp2.2\OrderManager.DataAccess.dll
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\obj\Release\netcoreapp2.2\OrderManager.DataAccess.pdb
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\obj\Release\netcoreapp2.2\OrderManager.DataAccess.genruntimeconfig.cache

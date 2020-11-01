@@ -7,9 +7,9 @@
                 <label> Budowa:</label>
                 @if (ViewBag.BuildingList != null)
                 {
-                    <select asp-for="Building.Id"
-                            asp-items="@(new SelectList(ViewBag.BuildingList, "Name"))">
-                        <option>Please select one</option>
+                    <select asp-for="Building.Id" style="width:300px; margin:0 0 0 10px"
+                            asp-items="@(new SelectList(ViewBag.BuildingList, "Id", "Name"))">
+                        <option>Wybierz</option>
                     </select>
                 }
                 else

@@ -47,7 +47,7 @@ namespace OrderManager.DataAccess.Migrations
 
                     b.Property<string>("AdminComment");
 
-                    b.Property<int>("BuildingId");
+                    b.Property<int?>("BuildingId");
 
                     b.Property<bool>("Ended");
 
@@ -67,7 +67,16 @@ namespace OrderManager.DataAccess.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("BuildingId");
+
                     b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("OrderManager.DataAccess.Models.Order", b =>
+                {
+                    b.HasOne("OrderManager.DataAccess.Models.Building", "Building")
+                        .WithMany()
+                        .HasForeignKey("BuildingId");
                 });
 #pragma warning restore 612, 618
         }
