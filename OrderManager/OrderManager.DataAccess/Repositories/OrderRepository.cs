@@ -16,12 +16,28 @@ namespace OrderManager.DataAccess.Repositories
         {
             _ctx = context;
         }
-        public async Task<IEnumerable<Order>> GetAllNewOrders()
+        public async Task<IEnumerable<Order>> GetAllNewOrdersAsync()
         {
-            return await _ctx.Orders.Where(p => p.InProgress == true
+           return await _ctx.Orders.Where(p => p.InProgress == false
            && p.Ended == false)
               .Include(p => p.Building)
               .ToListAsync();
+        }
+
+        public async Task<IEnumerable<Order>> GetAllInProgressOrdersAsync()
+        {
+          return await _ctx.Orders.Where(p => p.InProgress == true
+          && p.Ended == false)
+             .Include(p => p.Building)
+             .ToListAsync();
+        }
+
+        public async Task<IEnumerable<Order>> GetAllEndedOrdersAsync()
+        {
+          return await _ctx.Orders.Where(p => p.InProgress == true
+          && p.Ended == true)
+             .Include(p => p.Building)
+             .ToListAsync();
         }
     }
 }

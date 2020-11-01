@@ -51,11 +51,11 @@ namespace OrderManager
             {
                 routes.MapRoute(
                      name: null,
-                     template: "{controller}/{action}",
+                     template: "{controller?}/{action?}",
                      defaults: new { Controller = "AdminOrders", action = "NewOrders" });
-             routes.MapRoute(
+                routes.MapRoute(
                     name: null,
-                    template: "{controller}/{action}/{id}");
+                    template: "{controller}/{action}/{id?}");
         });
         }
     }

@@ -15,11 +15,11 @@ namespace OrderManager.Tests
     public class AdminOrdersControllerTests
     {
         [Fact]
-        public async void Can_Return_Buildings()
+        public async void Can_Return_New_Orders()
         {
             //Arranege
             Mock<IOrderRepository> mock = new Mock<IOrderRepository>();
-            mock.Setup(m => m.GetAllNewOrders()).ReturnsAsync((new Order[]
+            mock.Setup(m => m.GetAllNewOrdersAsync()).ReturnsAsync((new Order[]
                 {
                 new Order() {Id = 1, Item = "I1", Building = new Building(){Name = "B1"} },
                 new Order() {Id = 2, Item = "I2", Building = new Building(){Name = "B2"} },
@@ -28,7 +28,6 @@ namespace OrderManager.Tests
             var controller = new AdminOrdersController(mock.Object);
             //Act
             var returnElement = (List<OrderMainViewModel>)(await controller.NewOrders() as ViewResult).ViewData["Orders"];
-
             //Asseert
             Assert.Equal(3, returnElement.Count());
             Assert.Equal("I1", returnElement[0].OrderName);

@@ -6,6 +6,8 @@ namespace OrderManager.DataAccess.Repositories.Interfaces
 {
     public interface IOrderRepository
     {
-        Task<IEnumerable<Order>> GetAllNewOrders();
+        Task<IEnumerable<Order>> GetAllNewOrdersAsync();
+        Task<IEnumerable<Order>> GetAllInProgressOrdersAsync();
+        Task<IEnumerable<Order>> GetAllEndedOrdersAsync();
     }
 }

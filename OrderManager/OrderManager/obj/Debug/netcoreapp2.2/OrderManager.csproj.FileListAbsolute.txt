@@ -32,3 +32,5 @@ C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\bin\Debug\
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\OrderManager.Views.pdb
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\OrderManager.csproj.CopyComplete
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\OrderManager.genruntimeconfig.cache
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\AdminOrders\OrdersInProgress.cshtml.g.cs
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\AdminOrders\EndedOrders.cshtml.g.cs
