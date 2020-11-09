@@ -11,7 +11,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand">Order Manager</a>
             <a class="navbar-brand" asp-controller="AdminOrders" asp-action="NewOrders">Zamówienia</a>
-            <a class="navbar-brand" asp-controller="Users" asp-action="Index">Użytkownicy</a>
+            <a class="navbar-brand" asp-controller="User" asp-action="Index">Użytkownicy</a>
             <a class="navbar-brand" asp-controller="Buildings" asp-action="Index">Budowy</a>
         </nav>
         <div class="row" style="height:50px; background-color:darkorange">
@@ -28,7 +28,6 @@
                 </div>
             </div>
         <div class="col-9">
-         @await Component.InvokeAsync("BuildingFilter")
          @RenderBody()
         </div>
         </div>

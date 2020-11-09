@@ -8,7 +8,6 @@ C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\OrderManager.TagHelpers.output.cache
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\OrderManager.RazorCoreGenerate.cache
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\AdminOrders\NewOrders.cshtml.g.cs
-C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\BuildingFilter\Default.cshtml.g.cs
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
@@ -34,3 +33,5 @@ C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\OrderManager.genruntimeconfig.cache
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\AdminOrders\OrdersInProgress.cshtml.g.cs
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\AdminOrders\EndedOrders.cshtml.g.cs
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\User\Index.cshtml.g.cs
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_AdminOrdersLayout.cshtml.g.cs
