@@ -16,6 +16,18 @@
                 {
                     <a> Nie wprowadzono jeszcze żadnych budów do bazy danych</a>
                 }
+                <label> Użytkownik:</label>
+                @if (ViewBag.UserList != null)
+                {
+                    <select asp-for="UserId" style="width:300px; margin:0 0 0 10px"
+                            asp-items="@(new SelectList(ViewBag.UserList, "Id", "FullName"))">
+                        <option>Wybierz</option>
+                    </select>
+                }
+                else
+                {
+                    <a> Nie wprowadzono jeszcze żadnych budów do bazy danych</a>
+                }
             </div>
             <div class="form-group" style="margin: 0 0 0 10px">
                 <label style="margin:0 20px"> Data od:</label>

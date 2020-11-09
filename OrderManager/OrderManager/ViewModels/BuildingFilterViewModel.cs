@@ -10,6 +10,7 @@ namespace OrderManager.ViewModels
     {
         public Building Building { get; set; }
         public int UserId { get; set; }
+        public string Username { get; set; }
         public string DateFrom { get; set; }
         public string DateTo { get; set; }
     }

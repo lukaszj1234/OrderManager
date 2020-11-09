@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using OrderManager.DataAccess;
@@ -13,6 +8,8 @@ using OrderManager.DataAccess.Repositories;
 using OrderManager.DataAccess.Repositories.Interfaces;
 using AutoMapper;
 using OrderManager.Configuration;
+using Microsoft.AspNetCore.Identity;
+using OrderManager.DataAccess.Models;
 
 namespace OrderManager
 {
@@ -26,14 +23,21 @@ namespace OrderManager
             services.AddMvc();
             services.AddTransient<IBuildingRepository, BuildingRepository>();
             services.AddTransient<IOrderRepository, OrderRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
             services.AddDbContext<OrderManagerDbContext>(options =>
                options.UseSqlServer(
                    Configuration["Data:OrderManagerDb:ConnectionString"]));
+            services.AddIdentity<User, IdentityRole>(options =>
+            {
+                options.User.RequireUniqueEmail = true;
+            })
+            .AddEntityFrameworkStores<OrderManagerDbContext>()
+            .AddDefaultTokenProviders();
+
             var mappingConfig = new MapperConfiguration(mc =>
             {
                 mc.AddProfile(new MappingProfile());
             });
-
             IMapper mapper = mappingConfig.CreateMapper();
             services.AddSingleton(mapper);
         }

@@ -5,8 +5,8 @@ C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\bin\Debug\netcoreapp2.2\OrderManager.DataAccess.pdb
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\obj\Debug\netcoreapp2.2\OrderManager.DataAccess.AssemblyInfoInputs.cache
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\obj\Debug\netcoreapp2.2\OrderManager.DataAccess.AssemblyInfo.cs
-C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\obj\Debug\netcoreapp2.2\OrderManager.DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\obj\Debug\netcoreapp2.2\OrderManager.DataAccess.dll
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\obj\Debug\netcoreapp2.2\OrderManager.DataAccess.pdb
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\obj\Debug\netcoreapp2.2\OrderManager.DataAccess.genruntimeconfig.cache
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\obj\Debug\netcoreapp2.2\OrderManager.DataAccess.csprojAssemblyReference.cache
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager.DataAccess\obj\Debug\netcoreapp2.2\OrderManager.DataAccess.csproj.CoreCompileInputs.cache
