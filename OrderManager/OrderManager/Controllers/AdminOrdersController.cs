@@ -22,7 +22,6 @@ namespace OrderManager.Controllers
         }
         public async Task<IActionResult> NewOrders()
         {
-
             var orderList = await _orderRepository.GetAllNewOrdersAsync();
             ViewBag.Orders = GetOrderList(orderList);
             return View();

@@ -1,0 +1,13 @@
+﻿@model UserViewModel
+
+<div class="card card-outline-primary m-1 p-1">
+    <div class="p-1" style="height:60px;width:100%; background-color:grey">
+        <form id="form" asp-action="EditUser" asp-controller="User" method="post">
+            <input type="hidden" asp-for="Id" />
+            <font size="6">Użytkownik: @Model.FullName</font>
+            <div style="float:right">
+                <input class="btn btn-primary" type="submit" value="Edytuj" />
+            </div>
+        </form>
+    </div>
+</div>

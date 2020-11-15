@@ -35,3 +35,6 @@ C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\AdminOrders\EndedOrders.cshtml.g.cs
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\User\Index.cshtml.g.cs
 C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_AdminOrdersLayout.cshtml.g.cs
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\User\AddNewUser.cshtml.g.cs
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\Shared\UserFrame.cshtml.g.cs
+C:\Users\Moje\Documents\GitHub\OrderManager\OrderManager\OrderManager\obj\Debug\netcoreapp2.2\Razor\Views\User\ChangePassword.cshtml.g.cs

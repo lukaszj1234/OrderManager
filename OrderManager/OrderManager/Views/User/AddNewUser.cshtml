@@ -1,0 +1,48 @@
+﻿@model UserDetailsViewModel
+@{
+        Layout = "_AdminLayout";
+        ViewBag.Tittle = "Edycja danych użytkownika";
+}
+
+    <body>
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <form asp-controller="User" asp-action="AddNewUser">
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label>Login</label>
+                <input class="form-control" asp-for="UserName" />
+            </div>
+            @if (Model.Id == null)
+            {
+                <div class="form-group">
+                    <label>Hasło</label>
+                    <input class="form-control" type="password" asp-for="Password" />
+                </div>
+                <div class="form-group">
+                    <label>Potwierdź hasło</label>
+                    <input class="form-control" type="password" asp-for="ConfirmPassword" />
+                </div>
+            }
+            <div class="form-group">
+                <label>Imię</label>
+                <input class="form-control" asp-for="FirstName" />
+            </div>
+            <div class="form-group">
+                <label>Nazwisko</label>
+                <input class="form-control" asp-for="LastName" />
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input class="form-control" asp-for="EmailAdress" />
+            </div>
+            <div class="text-center">
+                <input class="btn btn-primary" type="submit" value="Zapisz" />
+            </div>
+        </form>
+        <form asp-controller="User" asp-action="RedirectToChangePassword">
+            <input type="hidden" asp-for="Id" />
+            <div class="text-center">
+                <input class="btn btn-primary" type="submit" value="Zmień hasło" />
+            </div>
+        </form>
+    </body>

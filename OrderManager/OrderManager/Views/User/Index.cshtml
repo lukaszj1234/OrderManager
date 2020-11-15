@@ -8,12 +8,14 @@
 {
     foreach (var item in Model)
     {
-        <div class="card m-1 p-1">
-            <div class="p-1" style="height:60px;width:100%; background-color:grey">
-                <h4>
-                    Użytkownik: @item.FullName
-                </h4>
-            </div>
-        </div>
+        @Html.Partial("UserFrame", item);
     }
 }
+<form asp-action="AddNewUser" asp-controller="User" method="post">
+    <div class="text-center">
+        <input class="btn btn-primary" type="submit" value="Dodaj użytkownika" />
+    </div>
+</form>
+
+
+
